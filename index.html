@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hello World!</title>
+    <style type="text/css">
+      body {
+        margin: 20px;
+      }
+    </style>
+    <script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+    <script src="game.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        game.paintFrame();
+      });
+    </script>
+  </head>
+  <body>
+    <div>
+      <canvas id="canvas" width="410" height="610">
+        Your browser is not supported HTML5 maybe.
+      </canvas>
+    </div>
+    <p>
+      按WSAD或者上下左右控制。P为重新开始游戏。
+    </p>
+  </body>
+</html>
